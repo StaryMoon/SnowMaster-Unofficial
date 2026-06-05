@@ -59,6 +59,28 @@ model = UnofficialStarter(kind="restoration")
 out = model(image)
 ```
 
+
+
+## Dataset Format
+
+The dataset loader expects paired snowy and clean images in the following structure:
+
+```text
+dataset/
+├── snowy/
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   └── ...
+└── clean/
+    ├── img1.jpg
+    ├── img2.jpg
+    └── ...
+
+This repository is an unofficial starter implementation.
+
+Any reported metrics are local experimental results and should not be considered equivalent to the official SnowMaster paper results until the complete training and evaluation protocol from the paper has been reproduced.
+
+
 ## Roadmap
 
 - [ ] Replace toy modules with a closer implementation of the paper.
