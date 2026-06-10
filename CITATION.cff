@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the original paper."
+title: "SnowMaster: Comprehensive Real-world Image Desnowing via MLLM with Multi-Model Feedback Optimization"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Minghao
+repository-code: "https://github.com/StaryMoon/SnowMaster-Unofficial"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "SnowMaster: Comprehensive Real-world Image Desnowing via MLLM with Multi-Model Feedback Optimization"
+  authors:
+  - family-names: Lai
+    given-names: Jianyu
+  - family-names: Chen
+    given-names: Sixiang
+  - family-names: Lin
+    given-names: Yunlong
+  - family-names: Ye
+    given-names: Tian
+  - family-names: Liu
+    given-names: Yun
+  - family-names: Fei
+    given-names: Song
+  - family-names: Xing
+    given-names: Zhaohu
+  - family-names: Wu
+    given-names: Hongtao
+  - family-names: Wang
+    given-names: Weiming
+  - family-names: Zhu
+    given-names: Lei
+  conference: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2025
+  url: "https://openaccess.thecvf.com/content/CVPR2025/html/Lai_SnowMaster_Comprehensive_Real-world_Image_Desnowing_via_MLLM_with_Multi-Model_Feedback_CVPR_2025_paper.html"
